@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Online Math Test</title>
+</head>
+<body>
+  <!-- Start of Math Test -->
+  <h1>Simple Online Math Test</h1>
+
+  <form action="#">
+    <!-- Name input -->
+    <label for="name">Enter your name:</label><br>
+    <input type="text" id="name" name="username" required><br><br>
+
+    <!-- Multiple Choice Question 1 -->
+    <p><strong>1. What is 7 &minus; 4?</strong></p>
+    <input type="radio" id="q1a" name="q1" value="1">
+    <label for="q1a">1</label><br>
+    <input type="radio" id="q1b" name="q1" value="3">
+    <label for="q1b">3</label><br>
+    <input type="radio" id="q1c" name="q1" value="5">
+    <label for="q1c">5</label><br><br>
+
+    <!-- Multiple Choice Question 2 -->
+    <p><strong>2. What is 6 &divide; 2?</strong></p>
+    <input type="radio" id="q2a" name="q2" value="2">
+    <label for="q2a">2</label><br>
+    <input type="radio" id="q2b" name="q2" value="3">
+    <label for="q2b">3</label><br>
+    <input type="radio" id="q2c" name="q2" value="4">
+    <label for="q2c">4</label><br><br>
+
+    <!-- Multiple Choice Question 3 -->
+    <p><strong>3. Which symbol represents 'less than or equal to'?</strong></p>
+    <input type="radio" id="q3a" name="q3" value=">">
+    <label for="q3a">&gt;</label><br>
+    <input type="radio" id="q3b" name="q3" value="<=">
+    <label for="q3b">&le;</label><br>
+    <input type="radio" id="q3c" name="q3" value="!=">
+    <label for="q3c">&ne;</label><br><br>
+
+    <!-- Word Problem -->
+    <p><strong>4. Word Problem:</strong></p>
+    <p>A girl has 12 candies. She gives 3 to each of her 3 friends. How many candies does she have left?</p>
+    <label for="word">Your answer:</label><br>
+    <textarea id="word" name="word" rows="4" cols="40" placeholder="Type your answer here..."></textarea><br><br>
+
+    <!-- Submit button -->
+    <input type="submit" value="Submit Test">
+  </form>
+
+  <!-- End of Math Test -->
+</body>
+</html>
